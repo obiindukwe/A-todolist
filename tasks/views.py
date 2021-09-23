@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from.models import * 
 
 
-# Create your views here.
+# Create your views here and in addition this is views
 def index(request):
 	tasks = Task.objects.all()
 	
